@@ -6,6 +6,7 @@
             <class name="tests.TestGoogle">
                 <methods>
                     <include name="testGoogle"/>
+                    
                 </methods>
             </class>
         </classes>
