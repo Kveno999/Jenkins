@@ -10,7 +10,7 @@ public class TestGoogle extends TestBase {
 
     @Test
     public void testGoogle() {
-        AqualityServices.getLocalizedLogger().debug("Starting testing of google");
+        AqualityServices.getLogger().info("Starting testing of google");
         MainPage mainPage = new MainPage();
         Assert.assertTrue(mainPage.state().isDisplayed(), "Main page isn't opened");
     }
